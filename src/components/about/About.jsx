@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { motion } from 'framer-motion'
-import { fadeIn } from '../../framer/variant'
+import { fadeIn } from '../../Framer/variant'
 
 function About() {
     return (

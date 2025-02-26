@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Circle } from 'rc-progress';
 import './platform.css';
 import { motion } from 'framer-motion'
-import { fadeIn } from '../../framer/variant'
+import { fadeIn } from '../../Framer/variant'
 
 function Platform() {
   const [percentage, setPercentage] = useState(30);

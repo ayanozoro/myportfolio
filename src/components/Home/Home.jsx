@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './home.css';
-import Platform from '../platform/Platform';
+import Platform from '../Platform/Platform.jsx';
 import { motion } from "motion/react"
 import { delay, transform } from 'motion';
 

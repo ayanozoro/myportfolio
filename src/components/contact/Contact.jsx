@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './contact.css'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../../framer/variant'
+import { fadeIn } from '../../Framer/variant'
 
 function Contact() {
     const [name, setName] = useState('');
