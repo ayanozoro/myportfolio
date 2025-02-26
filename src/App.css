@@ -1,0 +1,17 @@
+*{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  html, body {
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}

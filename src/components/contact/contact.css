@@ -1,0 +1,119 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #419af9;
+    font-family: 'Orbitron', serif;
+}
+
+.cont-tk{
+    color:  rgb(150, 209, 219) ;
+    font-family:'Courier New', Courier, monospace;
+}
+.contact-left {
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    /* margin-left: 2rem; */
+}
+
+.img-cnt {
+    justify-items: left;
+    width: 40px; 
+    height: auto;
+    margin: 5px 0;
+    background-color: #e4e4e4; 
+    border-radius: 20px;
+}
+
+.contact-detail{
+    color: aliceblue;
+    gap: 60px;
+    width: 100%;
+    justify-content: flex-start;    
+}
+
+.contact-form {
+    justify-content: end;
+    width: 90%;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.contact-typ{
+    display: flex;
+    gap: 10px;
+    font-size: large;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #f53f1f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .contact-form{
+        justify-content: center;
+        width: 90vw;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 80vw;
+    }
+
+    .contact-left{
+        font-size: smaller;
+        flex-direction: column-reverse;
+        width: 98%;
+    }
+
+    /* .img-cnt{
+        width: 3vw;
+    } */
+
+    .cnt-typ{
+        font-size: small;
+    }
+
+    .cont-tk{
+        font-size: small;
+    }
+}

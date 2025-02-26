@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Loved+by+the+King&family=Metal+Mania&family=Orbitron:wght@400..900&family=Oswald:wght@700&family=Rum+Raisin&family=Sigmar&display=swap');
+.head-skill {
+    text-align: center; 
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+    color: #f6d158;
+    font-family: 'Orbitron', serif; 
+}
+
+.skills {
+    margin-left: 6rem; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.skill {
+    width: 70vh; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transform: scale(0.9);
+    transition: 0.5s;
+    /* background-color: #dfdede;  */
+    background-image: radial-gradient( circle farthest-corner at 3.7% 49.8%,  rgba(143,232,255,1) 21.9%, rgba(209,243,251,1) 52.9% );
+}
+
+.skill:hover{
+    transform: scale(1);
+}
+
+.skill-img {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+.skill h3{
+    font-size: 2rem;
+}
+.skill-level {
+    margin-top: 5px;
+    font-weight: bold; 
+    color: #555;
+}
+
+.img-skill {
+    justify-items: left;
+    width: 40px; 
+    height: auto;
+    margin: 5px 0; 
+}
+
+.skill-para {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+
+@media (max-width: 768px) {
+    .skills {
+        margin-left: 0; 
+        grid-template-columns: 1fr;
+    }
+
+    .skill {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .skill-img {
+        grid-template-columns: repeat(2,1fr); 
+    }
+
+    .img-skill {
+        width: 5vw;
+        height: 3vh; 
+    }
+
+    .head-skill {
+        font-size: 1.5rem; 
+        color: rgb(255, 223, 126);
+    }
+
+    .skill-level {
+        font-size: 0.9rem;
+    }
+}

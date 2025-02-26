@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Loved+by+the+King&family=Metal+Mania&family=Orbitron:wght@400..900&family=Oswald:wght@700&family=Rum+Raisin&family=Sigmar&display=swap');
+.platform {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #49ed34;
+    font-family: 'Orbitron', serif;
+}
+
+.progress-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+.progress-item {
+    align-items: center;
+    background-color: #131313; 
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 40vh; 
+    max-width: 400px; 
+    text-align: center; 
+    margin: 10px; 
+    transition: 0.5s;
+}
+
+.progress-item:hover{
+    transform: scale(1.1);
+}
+
+.progress {
+    background-size: cover;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.plat-name {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+}
+
+.circle {
+    width: 10vw;
+    margin: 1rem;
+}
+
+.circle-text {
+    color: rgb(245, 148, 30);
+    font-size: 1.5rem;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .platform {
+        font-size: 1.5rem; 
+    }
+
+    .progress-item h3 {
+        font-size: small; /* Adjust heading size */
+    }
+
+    .progress-item {
+        width: 80%; /* Make progress items take more width on mobile */
+        max-width: none; /* Remove max-width for better responsiveness */
+    }
+
+    .circle {
+        width: 40vw; /* Adjust circle size for mobile */
+    }
+
+    .circle-text {
+        font-size: 1.2rem; /* Adjust text size for mobile */
+    }
+    .cir-txt{
+        font-size: xx-small;
+    }
+}
+
+#leetcode {
+    background-image: url(https://cdn.sanity.io/images/lcnfm0b1/production/12bafb7322ff6f815632c7655f360de6fb0f7222-3840x2160.png?w=3840&q=75&fit=clip&auto=format);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    border-radius: 50%;
+}
+
+#gfg {
+    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20210610212340/gfglogo.png);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    border-radius: 50%;
+}
+
+#try {
+    background-image: url(https://d1fdloi71mui9q.cloudfront.net/uQUAUsCFQzGdhYirc4vQ_tryHackMe%20Logo.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    border-radius: 50%;
+}
