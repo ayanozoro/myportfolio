@@ -9,7 +9,7 @@ import Contact from './Components/Contacts/Contact.jsx';
 
 function App() {
   return (
-    <div className="App w-full flex flex-col overflow-x-hidden">
+    <div className="App">
       <Navbar/>
       <Home/>
       <About/>
