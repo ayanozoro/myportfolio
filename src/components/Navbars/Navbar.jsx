@@ -21,19 +21,15 @@ function Navbar() {
         <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
           
           <li className="nav-item">
-            {/* <AnchorLink className='anchor-link' offset={50} href="#home"> */}
             <a href="#home" className="nav-links" onClick={closeMenu}>
               Home
             </a>
-            {/* </AnchorLink> */}
           </li>
           
           <li className="nav-item">
-            {/* <AnchorLink className='anchor-link' offset={50} href="#home"> */}
             <a href="#platform" className="nav-links" onClick={closeMenu}>
               Platform Use
             </a>
-            {/* </AnchorLink> */}
           </li>
 
           <li className="nav-item">
