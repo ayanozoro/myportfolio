@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Circle } from 'rc-progress';
-import './platform.css';
+import './Platform.css';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../Framer/variant'
 

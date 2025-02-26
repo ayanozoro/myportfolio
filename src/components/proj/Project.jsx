@@ -1,5 +1,5 @@
 import React from 'react';
-import './proj.css'; 
+import './Proj.css'; 
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../Framer/variant'
 

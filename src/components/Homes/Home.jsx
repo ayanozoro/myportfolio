@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './home.css';
+import './Home.css';
 import Platform from '../Platform/Platform.jsx';
-import { motion } from "motion/react"
-import { delay, transform } from 'motion';
+import { motion } from "motion/react";
 
 const Home = () => {
   const [name, setName] = useState('');

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './contact.css'
+import './Contact.css'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../Framer/variant'
 

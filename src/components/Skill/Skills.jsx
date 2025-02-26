@@ -1,5 +1,5 @@
 import React from 'react';
-import './skill.css';
+import './Skill.css';
 import { motion, transform } from 'framer-motion'
 import { fadeIn } from '../../Framer/variant'
 
